@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Involution-Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container"> 
+        <h1>內捲計算機</h1>
+        <p>請輸入你在 JudgeGirl 的 AC 數，內捲計算機會告訴你現在資工系有多卷</p>
+        <form id="numberForm">
+            <input type="number" id="numberInput" placeholder="How many AC do you have?" required>
+            </br>
+            <button type="submit">立刻確認自己捲不捲</button>
+        </form>
+        <div id="result"></div>
+        <div id="description"></div>
+        <div id="info"></div>
+        <div id="more">算不準嗎？到 <a href="https://github.com/FlyDragonW/CSIEB13-Involution-Calculator">Github</a> 使用 Python 腳本取得最即時的資料！</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
