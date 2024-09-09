@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e0f7fa; /* 更柔和的背景色 */
+    background-color: #e0f7fa; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,28 +15,28 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 100%;
-    max-width: 1300px; /* 最大寬度 */
+    max-width: 700px; 
 }
 
 h1 {
-    font-size: 4em;
+    font-size: 2em;
     margin-bottom: 20px;
 }
 
 p{
-    font-size: 1.8em;
+    font-size: 0.9em;
     margin-bottom: 20px;
 }
 
 label {
     display: block;
-    font-size: 2em;
+    font-size: 1em;
     margin-bottom: 15px;
 }
 
 input {
     padding: 15px;
-    font-size: 2em;
+    font-size: 1em;
     margin-bottom: 20px;
     width: 70%;
     box-sizing: border-box;
@@ -46,7 +46,7 @@ input {
 
 button {
     padding: 15px 25px;
-    font-size: 2em;
+    font-size: 1em;
     background-color: #0056b3;
     color: white;
     border: none;
@@ -60,7 +60,7 @@ button:hover {
 
 #result {
     margin-top: 20px;
-    font-size: 10em;
+    font-size: 5em;
     font-weight: bold;
 }
 
@@ -81,19 +81,19 @@ button:hover {
 }
 
 #description {
-    font-size: 1.8em;
+    font-size: 1em;
     margin-top: 0px;
     font-weight: bold;
 }
 
 #info {
-    font-size: 1.4em;
+    font-size: 0.8em;
     margin-top: 20px;
     color: #2d2d2d;
 }
 
 #more {
-    font-size: 1.2em;
+    font-size: 0.6em;
     margin-top: 20px;
     color: #666;
 }
