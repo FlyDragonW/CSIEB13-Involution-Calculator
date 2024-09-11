@@ -1,5 +1,5 @@
-const mean = 17.75; 
-const stdDev = 12.919493273794174; 
+const mean = 16.26; 
+const stdDev = 14.57; 
 
 document.getElementById('numberForm').addEventListener('submit', function(event) {
     event.preventDefault();
